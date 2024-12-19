@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--这个文件很重要-->
+<!--如果收不到事件尝试反复开关无障碍功能-->
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:packageNames="aaadddfgh.myapp.AItiaotiao"
+
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"
+    android:accessibilityEventTypes="typeAllMask"
+    android:canRequestFilterKeyEvents="true"
+    android:accessibilityFlags="flagRequestAccessibilityButton"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:notificationTimeout="500"
+    />
