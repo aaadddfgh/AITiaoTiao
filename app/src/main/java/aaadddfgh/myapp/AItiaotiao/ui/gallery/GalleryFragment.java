@@ -14,6 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import aaadddfgh.myapp.AItiaotiao.R;
 
+
 public class GalleryFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
