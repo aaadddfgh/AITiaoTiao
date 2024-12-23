@@ -15,7 +15,9 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -32,7 +34,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.openai:openai-java:0.8.0'
+    implementation libs.openai.java
     implementation libs.appcompat
     implementation libs.material
     implementation libs.constraintlayout
